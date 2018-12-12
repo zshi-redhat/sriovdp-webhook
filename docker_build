@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+# build webhook server image
+docker build -t sriovdp-webhook -f ./Dockerfile .
